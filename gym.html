@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+</head>
+<style>
+    body{
+        color: white;
+        background-image: url('sa.png');
+        margin: 0px;
+        padding: 0px;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 32px;
+        top: 20px;
+        border: 3px solid green;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 3px solid yellow;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 32px;
+        top: 20px;
+        border: 3px solid white;
+    }
+    .nav{
+        display: inline-block;
+    }
+    .left img{
+        width: 62px;
+    }
+    .nav li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .nav li a{
+        color: white;
+        text-decoration: none;
+        border: 4px;
+        padding: 4px;
+    }
+    .nav li a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 0px 9px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: red;
+        text-decoration: underline;
+        
+    }
+</style>
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="k.png" alt="error while loading">
+            <div>sankit gym</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="a">Home</a></li>
+                <li><a href="a">about us</a></li>
+                <li><a href="a">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button><button class="btn">write to us</button>
+        </div>
+    </header>
+</body>
+</html>

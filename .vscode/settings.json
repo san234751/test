@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "creating_folder_LABT1A.C": "cpp",
+        "iostream": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "14.C": "cpp"
+    },
+    "python.pythonPath": "F:\\Program Files\\Python39\\python.exe",
+    "C_Cpp.errorSquiggles": "Disabled"
+}
